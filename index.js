@@ -1,30 +1,24 @@
-/* //Arrays it is a list
-const arr = [3, 6, 9];
+const people = [
+  { name: "John Doe", jnumbers: [1, 2, 4, 6], factor: "Unknown" },
+  { name: "Jonathan Doe", jnumbers: [3, 5, 8, 7], factor: "Known, testing?" },
+];
 
-console.log(arr[0]);
-console.log(arr[1]);
-console.log(arr[2]);
-console.log(arr[3]); //0 index 
+people.forEach((people) => {
+  console.log(people.name);
+});
 
-const arr2 = [true, false, "yay!", [3, 6, 7], null, 9];
-//console.log(arr2.length);
+people.forEach((people) => {
+  console.log(people.factor);
+});
 
-arr2.unshift("pushed");
-arr2.pop();
-console.log(arr2);
-*/
+people.forEach((people) => {
+  console.log();
+});
 
-const numbersArr = [1, 2, 3, 4, 5];
-
-/* numbersArr.forEach((number) => {
-  //iterate through the array and run function on each one.
-  //pass each element into the function as a parameter
-  console.log(number * 2);
-  console.log(numbersArr);
-}); */
-
-const newArr = numbersArr.map((number) => 
-  return number * 2;
-);
-
-console.log(newArr);
+people.forEach((people) => {
+  console.log(people.name);
+  console.log(people.factor);
+  people.jnumbers.forEach((number) => {
+    console.log(number);
+  });
+});
