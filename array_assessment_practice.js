@@ -20,22 +20,16 @@
   },
 ];
 
-people.forEach((name) => {
-  console.log(name.name);
-});
-
-people.forEach((people) => {
-  console.log(people.name);
-  people.jnumbers.forEach((number) => {
-    console.log(number);
-  });
-  console.log(people.found);
-  console.log(people.factor);
-});
-
-people
+/* people
   .filter((filterfound) => filterfound.found === "yes")
   .forEach((foundpeople) => {
     console.log(foundpeople.name);
   });
+ */
+
+people.forEach((names) => {
+  console.log;
+});
+
+console.log(names(people`es`));
  */
