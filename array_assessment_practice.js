@@ -1,4 +1,4 @@
-/* const people = [
+const people = [
   { name: "John Doe", jnumbers: [1, 2, 4, 6], found: "no", factor: "Unknown" },
   {
     name: "Jonathan Doe",
@@ -20,16 +20,18 @@
   },
 ];
 
-/* people
+people
   .filter((filterfound) => filterfound.found === "yes")
   .forEach((foundpeople) => {
     console.log(foundpeople.name);
   });
- */
 
-people.forEach((names) => {
+/* people.forEach((names) => {
   console.log;
-});
+}); */
 
-console.log(names(people`es`));
- */
+/* console.log(names(people`es`)); */
+
+people.forEach((people) => {
+  console.log(people.includes(4));
+});
